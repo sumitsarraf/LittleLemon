@@ -16,8 +16,8 @@ http://localhost:5700/api/menu/1
 {
     "id": 1,
     "title": "Grilled fish",
-    "price": "123.00",
-    "inventory": 4
+    "price": "32.50",
+    "inventory": 6
 }
 ```
 GET in 
@@ -31,8 +31,8 @@ BODY
 ```json
 {
     "title": "Chicken tikka",
-    "price": "123.00",
-    "inventory": 3
+    "price": "30.00",
+    "inventory": 5
 }
 ```
 RESULT
@@ -40,8 +40,8 @@ RESULT
 {
     "id": 2,
     "title": "Chicken tikka",
-    "price": "123.00",
-    "inventory": 3
+    "price": "30.00",
+    "inventory": 5
 }
 ```
 
@@ -54,8 +54,8 @@ http://localhost:5700/api/booking/tables
     {
         "id": 1,
         "name": "Tommy's Birthday",
-        "number_of_guests": 6,
-        "booking_date": "2023-06-06T17:41:53Z"
+        "number_of_guests": 16,
+        "booking_date": "2024-02-06T17:41:53Z"
     }
 ]
 ```
